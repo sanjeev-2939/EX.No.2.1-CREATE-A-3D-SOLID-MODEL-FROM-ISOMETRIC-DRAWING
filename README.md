@@ -1,5 +1,5 @@
 # EX.No.2.1  CREATE A 3D SOLID MODEL FROM ISOMETRIC DRAWING
-## Date:
+## Date: 20-11-2026
 
 ## AIM
 To create a 3Dmodel from the given isometric drawing using fusion 360 tool. 
@@ -12,65 +12,37 @@ To create a 3Dmodel from the given isometric drawing using fusion 360 tool.
 
 ## PROCEDURE
 
- ### STEP-1:  Start the sketch command
+## PROCEDURE
 
-   Select Sketch > Create Sketch.
+1. Open Fusion 360, create a **New Design**.
+2. Click **Create Sketch** and select the front plane (XZ plane).
+<img width="696" height="500" alt="CREATE SKETCH" src="https://github.com/user-attachments/assets/26e2c20d-4a7e-454f-b37d-09c60f19fee5" />
 
- ### STEP-2:  Select the Sketch Plane
+3. Draw a rectangle **100 mm wide** and **60 mm high**. Finish the sketch.
+4. Extrude the rectangle by **30 mm** to make the main block.
+<img width="952" height="492" alt="CIRCLE" src="https://github.com/user-attachments/assets/c1a9854a-be31-4fae-b3d8-6571da867760" />
 
-   Select the Front (XZ) Plane
+5. Select the front face and create a sketch. Draw a circle at the centre and set its diameter to **50 mm**.
+6. Finish the sketch, choose **Extrude**, select **Cut**, and cut the Ø50 opening through the block.
+7. Select the top face and start a sketch. Mark the top features using the drawing’s **10 mm, 30 mm, and 20 mm** measurements.
+8. Use the left square profile to make the small square recess shown in the drawing.
+9. Sketch and extrude the central top section to make the raised step.
+10. Create the sloping connection between the central step and the raised rear section.
+11. On the right top section, sketch a circle with a diameter of **20 mm**.
+12. Extrude the circle upward to make the round boss.
+13. Check the model from the front, top, and isometric views. Confirm the overall size is **100 × 60 × 30 mm** and the front hole is **Ø50 mm**.
+<img width="891" height="617" alt="SKETCH DIMEN" src="https://github.com/user-attachments/assets/48c8126a-dd7e-40ea-80a3-835d58a7e4cd" />
 
-### STEP-3: Create a Rectangle 
+14. Create a drawing sheet and place the front, top, and isometric views.
+<img width="455" height="212" alt="FINISH SKETCH" src="https://github.com/user-attachments/assets/17cfd7f4-4540-463a-b2be-63fb4326ad46" />
 
-   1.	Select Sketch > Rectangle > Center Rectangle.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the rectangle.
-   4.	Type the Tab button and enter the values 100 mm and 60mm for the width and height respectively.
-   5.	Click again to place the rectangle.
-   6.	Click Finish Sketch after completing.
-
- ### STEP-4: Extrude Rectangle in XZ Plane
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 30mm. 
-   5.	Press ENTER to accept the value.
-
- ### STEP-5:  Start the sketch command
-   Select Sketch > Create Sketch.
- ### STEP-6: Select the Sketch Plane
-   Select the FRON SURFACE of rectangular block 
- ### STEP-7: Create a CIRCLE 
-   1.	Select Sketch >CIRCLE  > CENTER CIRCLE.
-   2.	Now hover over the origin (center) of the sketch. You should see the cursor snap to this location.
-   3.	Click once to begin placing the CIRCLE.
-   4.	Type the Tab button and enter the value DIA 100mm .
-   5.	Click again to place the circle.
-   6.	Click Finish Sketch after completing.
-
- ### STEP-8:  Extrude CIRCLE 
-   1.	Select Extrude.
-   2.	Select the Rectangle sketch.
-   3.	Click again to place the value.
-   4.	Type in the value of 20mm. 
-   5.	Press ENTER to accept the value.
-
- ### STEP-9: Start the sketch command
-   Select Sketch > Create Sketch.
-   
- ### STEP-10: Select the Sketch Plane
-   Select the TOP SURFACE OF RECTANGLE.
-   
- ### STEP-11: Create a line
-	1.Select Line command.
-	2. Draw the projections in the diagram 
-	3. Click Finish Sketch.
-	4. extrude the sketch.
+15. Add the dimensions **100, 60, 30, Ø50, Ø20**, and the indicated **10, 10, 30, and 20 mm** top details. Save the drawing.
 
 ## INPUT
-![image](https://user-images.githubusercontent.com/113594316/198495472-9a69edb1-f0c6-470c-b9ae-fe282fa6a678.png)
+<img width="1920" height="1080" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/5ce1c4a8-4aa6-40f8-b153-ff7648dfcc1b" />
 
 ## OUTPUT
+<img width="1920" height="1080" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/f9e3a773-89a1-41f8-aada-ec95c75ac66e" />
 
 ## RESULT: 
  Thus, the 3D model is created from given isometric drawing.
